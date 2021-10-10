@@ -53,7 +53,7 @@ void Out(object_oriented &lang, FILE* file) {
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
                   "    inheritance_type: %s\n"
-                  "    copare_value: %f\n",
+                  "    compare_value: %f\n",
             lang.name, lang.creation_year, lang.popularity, inheritance_type, CompareValue(lang));
 }
 

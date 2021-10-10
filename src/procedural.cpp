@@ -28,7 +28,7 @@ void Out(procedural &lang, FILE* file) {
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
                   "    has_adt: %i\n"
-                  "    copare_value: %f\n",
+                  "    compare_value: %f\n",
             lang.name, lang.creation_year, lang.popularity, lang.has_adt, CompareValue(lang));
 }
 

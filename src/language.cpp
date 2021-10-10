@@ -14,7 +14,7 @@ enum key {FUNCTIONAL, PROCEDURAL, OBJECT_ORIENTED};
 //------------------------------------------------------------------------------
 language *In(FILE* file) {
     char *lang_type;
-    // считываем строку вида "procedural language" и обрасываем второе слово
+    // считываем строку вида "<lang_type> language" и обрасываем второе слово
     fscanf(file, "%s %*s", lang_type); 
     language *lang = new language;
     if (lang_type == "procedural") {
@@ -29,6 +29,7 @@ language *In(FILE* file) {
     } else {
         delete lang;
         printf("ERROR: unknown language type: %s\n", lang_type);
+        return nullptr;
     }
     return lang;
 }

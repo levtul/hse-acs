@@ -48,7 +48,7 @@ void Out(functional &lang, FILE* file) {
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
                   "    typing_type: %s\n"
-                  "    copare_value: %f\n",
+                  "    compare_value: %f\n",
             lang.name, lang.creation_year, lang.popularity, typing_type, CompareValue(lang));
 }
 
