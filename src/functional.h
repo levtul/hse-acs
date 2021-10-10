@@ -5,9 +5,9 @@
 // functional.h - содержит описание прямоугольника  и его интерфейса
 //------------------------------------------------------------------------------
 
-#include <iostream>
-#include <fstream>
-using namespace std;
+#include "constants.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 struct functional {
     enum typing {
@@ -18,7 +18,7 @@ struct functional {
     // общие характеристики
     double popularity;
     int creation_year;
-    char name[50];
+    char name[MAX_NAME_SIZE];
 };
 
 void In(functional &lang, FILE* file);

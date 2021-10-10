@@ -6,19 +6,19 @@
 #include <stdio.h>
 
 void errMessage1() {
-    cout << "incorrect command line!\n"
+    printf("incorrect command line!\n"
             "  Waited:\n"
             "     command -f infile outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n number outfile01 outfile02\n");
 }
 
 void errMessage2() {
-    cout << "incorrect qualifier value!\n"
+    printf("incorrect qualifier value!\n"
             "  Waited:\n"
             "     command -f infile outfile01 outfile02\n"
             "  Or:\n"
-            "     command -n number outfile01 outfile02\n";
+            "     command -n number outfile01 outfile02\n");
 }
 
 //------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    cout << "Start"<< endl;
+    printf("Start\n");
     container c;
     Init(c);
 
@@ -57,11 +57,10 @@ int main(int argc, char* argv[]) {
     fclose(file);
 
     file = fopen(argv[4], "w");
-    Out(c, file);
     ShellSort(c);
     Out(c, file);
     fclose(file);
     Clear(c);
-    cout << "Stop"<< endl;
+    printf("Stop");
     return 0;
 }

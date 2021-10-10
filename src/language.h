@@ -8,6 +8,8 @@
 #include "functional.h"
 #include "procedural.h"
 #include "object_oriented.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 //------------------------------------------------------------------------------
 // структура, обобщающая все имеющиеся языки

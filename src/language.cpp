@@ -28,9 +28,7 @@ language *In(FILE* file) {
         In(lang->o, file);
     } else {
         delete lang;
-        char *msg;
-        sprintf(msg, "ERROR: unknown language type: %s", lang_type);
-        throw runtime_error(msg);
+        printf("ERROR: unknown language type: %s\n", lang_type);
     }
     return lang;
 }
@@ -59,7 +57,7 @@ void Out(language &lang, FILE* file) {
     } else if (lang.k == language::OBJECT_ORIENTED) {
         Out(lang.o, file);
     } else {
-        throw runtime_error("ERROR: incorrect key");
+        printf("ERROR: incorrect key\n");
     }
 }
 
@@ -71,7 +69,7 @@ void OutForTestGen(language &lang, FILE* file) {
     } else if (lang.k == language::OBJECT_ORIENTED) {
         OutForTestGen(lang.o, file);
     } else {
-        throw runtime_error("ERROR: incorrect key");
+        printf("ERROR: incorrect key\n");
     }
 }
 

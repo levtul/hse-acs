@@ -12,8 +12,11 @@ void In(procedural &lang, FILE* file) {
 }
 
 void InRnd(procedural &lang) {
-    // TODO
-    // lang.name = "random";
+    int size = rand() % (MAX_NAME_SIZE - 2) + 1;
+    for (int i = 0; i < size; i++) {
+        lang.name[i] = 'a' + rand() % 26;
+    }
+    lang.name[size] = '\0';
     lang.creation_year = rand() % 50 + 1970;
     lang.has_adt = rand() % 2;
     lang.popularity = rand() % 100000 * 0.001;
@@ -35,7 +38,7 @@ void OutForTestGen(procedural &lang, FILE* file) {
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
                   "    has_adt: %i\n",
-            lang.name, lang.creation_year, lang.popularity, lang.has_adt, CompareValue(lang));
+            lang.name, lang.creation_year, lang.popularity, lang.has_adt);
 }
 
 double CompareValue(procedural &lang) {

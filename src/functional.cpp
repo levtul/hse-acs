@@ -8,22 +8,23 @@ void In(functional &lang, FILE* file) {
     fscanf(file, "    name: %s\n"
                  "    creation_date: %i\n"
                  "    popularity: %f\n"
-                 "    typing_type: %i\n",
+                 "    typing_type: %s\n",
             &lang.name, &lang.creation_year, &lang.popularity, typing_type);
     if (typing_type == "DYNAMIC") {
         lang.typing_type = functional::DYNAMIC;
     } else if (typing_type == "STRICT") {
         lang.typing_type = functional::STRICT;
     } else {
-        char *msg;
-        sscanf(msg, "ERROR: Unknown typing type: %s", typing_type);
-        throw runtime_error(msg);
+        printf("ERROR: Unknown typing type: %s\n", typing_type);
     }
 }
 
 void InRnd(functional &lang) {
-    // TODO
-    // lang.name = "random";
+    int size = rand() % (MAX_NAME_SIZE - 2) + 1;
+    for (int i = 0; i < size; i++) {
+        lang.name[i] = 'a' + rand() % 26;
+    }
+    lang.name[size] = '\0';
     lang.creation_year = rand() % 50 + 1970;
     lang.popularity = rand() % 100000 * 0.001;
     lang.lazy_coputation = rand() % 2;
@@ -46,7 +47,7 @@ void Out(functional &lang, FILE* file) {
                   "    name: %s\n"
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
-                  "    typing_type: %i\n"
+                  "    typing_type: %s\n"
                   "    copare_value: %f\n",
             lang.name, lang.creation_year, lang.popularity, typing_type, CompareValue(lang));
 }
@@ -62,7 +63,7 @@ void OutForTestGen(functional &lang, FILE* file) {
                   "    name: %s\n"
                   "    creation_date: %i\n"
                   "    popularity: %f\n"
-                  "    typing_type: %i\n",
+                  "    typing_type: %s\n",
             lang.name, lang.creation_year, lang.popularity, typing_type);
 }
 

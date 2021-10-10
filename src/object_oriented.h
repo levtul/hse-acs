@@ -5,9 +5,9 @@
 // functional.h - содержит описание прямоугольника  и его интерфейса
 //------------------------------------------------------------------------------
 
-#include <iostream>
-#include <fstream>
-using namespace std;
+#include "constants.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 struct object_oriented {
     enum inheritance {
@@ -19,7 +19,7 @@ struct object_oriented {
     // общие характеристики
     double popularity;
     int creation_year;
-    char name[50];
+    char name[MAX_NAME_SIZE];
 };
 
 void In(object_oriented &lang, FILE* file);

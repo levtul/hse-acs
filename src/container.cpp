@@ -42,13 +42,12 @@ void InRnd(container &c, int size) {
 //------------------------------------------------------------------------------
 // Output container data.
 void Out(container &c, FILE *file) {
-    fprintf(file, "%s%d%s", "container contains ", c.len, " elements.");
+    fprintf(file, "%s%d%s", "container contains ", c.len, " elements.\n");
     for (int i = 0; i < c.len; i++) {
-        fprintf(file, "%s", "\n");
         Out(*(c.cont[i]), file);
     }
 }
 
 void ShellSort(container &c) {
-    
+
 }
