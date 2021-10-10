@@ -4,11 +4,13 @@
 // для простоты будем вводить в том же формате что и выводим, чтобы
 // было удобно генерировать тесты. 
 void In(procedural &lang, FILE* file) {
+    int has_adt;
     fscanf(file, "    name: %s\n"
                  "    creation_date: %i\n"
-                 "    popularity: %f\n"
+                 "    popularity: %lf\n"
                  "    has_adt: %i\n",
-            &lang.name, &lang.creation_year, &lang.popularity, &lang.has_adt);
+            lang.name, &lang.creation_year, &lang.popularity, &has_adt);
+    lang.has_adt = has_adt;
 }
 
 void InRnd(procedural &lang) {

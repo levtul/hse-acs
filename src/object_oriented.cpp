@@ -4,17 +4,17 @@
 // для простоты будем вводить в том же формате что и выводим, чтобы
 // было удобно генерировать тесты. 
 void In(object_oriented &lang, FILE* file) {
-    char *inheritance_type;
+    char inheritance_type[20];
     fscanf(file, "    name: %s\n"
                  "    creation_date: %i\n"
-                 "    popularity: %f\n"
-                 "    inheritance_type: %i\n",
-            &lang.name, &lang.creation_year, &lang.popularity, inheritance_type);
-    if (inheritance_type == "INTERFACE") {
+                 "    popularity: %lf\n"
+                 "    inheritance_type: %s\n",
+            lang.name, &lang.creation_year, &lang.popularity, inheritance_type);
+    if (*inheritance_type == 'I') {
         lang.inheritance_type = object_oriented::INTERFACE;
-    } else if (inheritance_type == "SINGLE") {
+    } else if (*inheritance_type == 'S') {
         lang.inheritance_type = object_oriented::SINGLE;
-    } if (inheritance_type == "MULTIPLE") {
+    } else if (*inheritance_type == 'M') {
         lang.inheritance_type = object_oriented::MULTIPLE;
     } else {
         printf("ERROR: Unknown inheritance type: %s\n", inheritance_type);

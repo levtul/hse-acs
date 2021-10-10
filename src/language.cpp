@@ -13,17 +13,17 @@ enum key {FUNCTIONAL, PROCEDURAL, OBJECT_ORIENTED};
 
 //------------------------------------------------------------------------------
 language *In(FILE* file) {
-    char *lang_type;
+    char lang_type[20];
     // считываем строку вида "<lang_type> language" и обрасываем второе слово
-    fscanf(file, "%s %*s", lang_type); 
+    fscanf(file, "%s%*s\n", lang_type);
     language *lang = new language;
-    if (lang_type == "procedural") {
+    if (*(lang_type) == 'p') {
         lang->k = language::PROCEDURAL;
         In(lang->p, file);
-    } else if (lang_type == "functional") {
+    } else if (*(lang_type) == 'f') {
         lang->k = language::FUNCTIONAL;
         In(lang->f, file);
-    } else if (lang_type == "object-oriented") {
+    } else if (*(lang_type) == 'o') {
         lang->k = language::OBJECT_ORIENTED;
         In(lang->o, file);
     } else {

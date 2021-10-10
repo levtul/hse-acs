@@ -4,15 +4,15 @@
 // для простоты будем вводить в том же формате что и выводим, чтобы
 // было удобно генерировать тесты. 
 void In(functional &lang, FILE* file) {
-    char *typing_type;
+    char typing_type[20];
     fscanf(file, "    name: %s\n"
                  "    creation_date: %i\n"
-                 "    popularity: %f\n"
+                 "    popularity: %lf\n"
                  "    typing_type: %s\n",
-            &lang.name, &lang.creation_year, &lang.popularity, typing_type);
-    if (typing_type == "DYNAMIC") {
+            lang.name, &lang.creation_year, &lang.popularity, typing_type);
+    if (*typing_type == 'D') {
         lang.typing_type = functional::DYNAMIC;
-    } else if (typing_type == "STRICT") {
+    } else if (*typing_type == 'S') {
         lang.typing_type = functional::STRICT;
     } else {
         printf("ERROR: Unknown typing type: %s\n", typing_type);
