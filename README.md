@@ -119,6 +119,7 @@ Test MaxElemsCount: OK. Elements count: 10000. Time: 0.0634s
 ---
 ## Архитектура
 
+[Файл](https://github.com/levtul/hse-acs/blob/task1/Описание%20архитектуры.pdf)
 
 ---
 ## Сравнительный аланиз
