@@ -31,7 +31,9 @@ void InRnd(container &c, int size);
 // Вывод содержимого контейнера в указанный поток
 void Out(container &c, FILE* file);
 
-// Вычисление суммы периметров всех фигур в контейнере
+void OutForTestGen(container &c, FILE* file);
+
+// Сортивка контейнера с помощью сортировки Шелла
 void ShellSort(container &c);
 
 #endif

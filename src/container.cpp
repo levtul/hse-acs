@@ -48,6 +48,12 @@ void Out(container &c, FILE *file) {
     }
 }
 
+void OutForTestGen(container &c, FILE *file) {
+    for (int i = 0; i < c.len; i++) {
+        OutForTestGen(*(c.cont[i]), file);
+    }
+}
+
 void ShellSort(container &c) {
     for (int d = c.len / 2; d > 0; d /= 2) {
         for (int i = d; i < c.len; i++) {

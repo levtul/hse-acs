@@ -1,0 +1,690 @@
+functional language:
+    name: gguntpowolkt
+    creation_date: 1970
+    popularity: 4.751000
+    typing_type: STRICT
+procedural language:
+    name: yqvgtjscm
+    creation_date: 1975
+    popularity: 37.077000
+    has_adt: 0
+functional language:
+    name: nnaje
+    creation_date: 1972
+    popularity: 90.985000
+    typing_type: DYNAMIC
+functional language:
+    name: ikpknuj
+    creation_date: 1997
+    popularity: 11.537000
+    typing_type: DYNAMIC
+procedural language:
+    name: doqkvjujzusflzam
+    creation_date: 2016
+    popularity: 11.816000
+    has_adt: 1
+object_oriented language:
+    name: j
+    creation_date: 1994
+    popularity: 62.706000
+    inheritance_type: INTERFACE
+object_oriented language:
+    name: lyyyenookaitbdngqojeh
+    creation_date: 2014
+    popularity: 9.237000
+    inheritance_type: SINGLE
+procedural language:
+    name: engbjta
+    creation_date: 2001
+    popularity: 47.718000
+    has_adt: 1
+object_oriented language:
+    name: ujhcekhurziaerchdm
+    creation_date: 1989
+    popularity: 60.127000
+    inheritance_type: MULTIPLE
+functional language:
+    name: munwlvuspdctim
+    creation_date: 2015
+    popularity: 76.616000
+    typing_type: STRICT
+functional language:
+    name: gehnjwgtxhgkbv
+    creation_date: 1982
+    popularity: 9.746000
+    typing_type: STRICT
+functional language:
+    name: il
+    creation_date: 2012
+    popularity: 32.628000
+    typing_type: DYNAMIC
+procedural language:
+    name: gimmowcasivrsbbt
+    creation_date: 2010
+    popularity: 64.950000
+    has_adt: 1
+functional language:
+    name: txwezofdkmlubxlxzlr
+    creation_date: 2008
+    popularity: 3.076000
+    typing_type: STRICT
+functional language:
+    name: xhxhznawjgvzoalalgd
+    creation_date: 2019
+    popularity: 30.273000
+    typing_type: STRICT
+functional language:
+    name: ykeavsaerjdfmbosyqizblmjox
+    creation_date: 1982
+    popularity: 55.559000
+    typing_type: STRICT
+functional language:
+    name: uqnpkntcwwhkxxfyp
+    creation_date: 2013
+    popularity: 66.823000
+    typing_type: STRICT
+procedural language:
+    name: pjfgxpshk
+    creation_date: 1987
+    popularity: 45.221000
+    has_adt: 0
+functional language:
+    name: tzgpiqpivnxl
+    creation_date: 1982
+    popularity: 9.472000
+    typing_type: DYNAMIC
+procedural language:
+    name: iygfnbnzojzlrsnzjxryfpndabt
+    creation_date: 1981
+    popularity: 27.256000
+    has_adt: 1
+functional language:
+    name: msrcvgbjpaxiukjehb
+    creation_date: 2000
+    popularity: 47.989000
+    typing_type: STRICT
+functional language:
+    name: vnfwcriomzshhwtwysh
+    creation_date: 1987
+    popularity: 45.460000
+    typing_type: DYNAMIC
+functional language:
+    name: dclzwfxkltmcdc
+    creation_date: 1992
+    popularity: 62.648000
+    typing_type: STRICT
+object_oriented language:
+    name: tkrltkpjjcdpfoqb
+    creation_date: 1998
+    popularity: 44.069000
+    inheritance_type: INTERFACE
+object_oriented language:
+    name: zjmectbcguvqlilyxvjbyagorkke
+    creation_date: 2015
+    popularity: 18.523000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: cdfxghdccwpmhnjc
+    creation_date: 2013
+    popularity: 23.774000
+    has_adt: 0
+functional language:
+    name: tqfdxevmdyqidnqmrsoniauxlz
+    creation_date: 1986
+    popularity: 7.685000
+    typing_type: STRICT
+procedural language:
+    name: qzanexchxssciiozbeoleiirjhq
+    creation_date: 1987
+    popularity: 14.339000
+    has_adt: 1
+functional language:
+    name: ij
+    creation_date: 1991
+    popularity: 77.594000
+    typing_type: DYNAMIC
+functional language:
+    name: johrwvszzgkfrtyacpnhax
+    creation_date: 2018
+    popularity: 53.894000
+    typing_type: DYNAMIC
+object_oriented language:
+    name: ivwulgljbejdmvkdqjesyt
+    creation_date: 1989
+    popularity: 99.582000
+    inheritance_type: MULTIPLE
+object_oriented language:
+    name: bbhumesgr
+    creation_date: 1996
+    popularity: 53.321000
+    inheritance_type: SINGLE
+procedural language:
+    name: mhmjrpaavsyrwyjejm
+    creation_date: 1979
+    popularity: 50.582000
+    has_adt: 0
+functional language:
+    name: bbqbxtfwhmir
+    creation_date: 1992
+    popularity: 52.712000
+    typing_type: STRICT
+functional language:
+    name: hojhypqkxjtskuwaxt
+    creation_date: 2006
+    popularity: 10.915000
+    typing_type: DYNAMIC
+object_oriented language:
+    name: wvcpezdnoouoenady
+    creation_date: 2015
+    popularity: 81.841000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: inmeqckhegfgyjfd
+    creation_date: 2018
+    popularity: 45.609000
+    inheritance_type: SINGLE
+functional language:
+    name: xfkadfylvrwkecaimj
+    creation_date: 2014
+    popularity: 53.555000
+    typing_type: STRICT
+procedural language:
+    name: zwxxpsin
+    creation_date: 1985
+    popularity: 31.457000
+    has_adt: 0
+procedural language:
+    name: nqxhmhlrjtduhajbtkarkxj
+    creation_date: 1978
+    popularity: 62.174000
+    has_adt: 0
+functional language:
+    name: ngcbzbknkvevqiqxkbyelaxxagz
+    creation_date: 2000
+    popularity: 69.730000
+    typing_type: STRICT
+functional language:
+    name: pvksfydccyumotxptd
+    creation_date: 1975
+    popularity: 61.143000
+    typing_type: STRICT
+functional language:
+    name: cfphshshedzlbepd
+    creation_date: 1971
+    popularity: 74.407000
+    typing_type: DYNAMIC
+functional language:
+    name: lxsqtusodu
+    creation_date: 1990
+    popularity: 57.027000
+    typing_type: STRICT
+procedural language:
+    name: vjzwwcdohgzzz
+    creation_date: 2018
+    popularity: 69.952000
+    has_adt: 0
+object_oriented language:
+    name: cuhvlmphhvvmrsvsqtuthbz
+    creation_date: 1979
+    popularity: 39.543000
+    inheritance_type: SINGLE
+procedural language:
+    name: nogqlnlwzcfhxavqssiile
+    creation_date: 1996
+    popularity: 52.256000
+    has_adt: 1
+object_oriented language:
+    name: liriwhoosdbqffvofxj
+    creation_date: 1981
+    popularity: 5.431000
+    inheritance_type: SINGLE
+functional language:
+    name: oke
+    creation_date: 1973
+    popularity: 14.544000
+    typing_type: DYNAMIC
+object_oriented language:
+    name: gosqegkijdpoydvwo
+    creation_date: 1989
+    popularity: 22.609000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: fhvrchghbpxvfcdr
+    creation_date: 1994
+    popularity: 77.136000
+    has_adt: 0
+object_oriented language:
+    name: vgy
+    creation_date: 1977
+    popularity: 89.028000
+    inheritance_type: SINGLE
+procedural language:
+    name: qwszrjbasldhiyokbfwpczsx
+    creation_date: 1971
+    popularity: 56.772000
+    has_adt: 0
+object_oriented language:
+    name: wqbslamwemopsxxqlistgjvgbs
+    creation_date: 2015
+    popularity: 65.181000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: eljzwmnvqblftje
+    creation_date: 2018
+    popularity: 5.460000
+    has_adt: 0
+object_oriented language:
+    name: vnmdrgsoqlxxxg
+    creation_date: 2004
+    popularity: 75.627000
+    inheritance_type: SINGLE
+procedural language:
+    name: kmc
+    creation_date: 1977
+    popularity: 35.747000
+    has_adt: 0
+functional language:
+    name: jmabhppmiyhxouwltejpz
+    creation_date: 2016
+    popularity: 30.043000
+    typing_type: DYNAMIC
+object_oriented language:
+    name: tybnknpn
+    creation_date: 1981
+    popularity: 77.010000
+    inheritance_type: MULTIPLE
+functional language:
+    name: cs
+    creation_date: 2002
+    popularity: 30.683000
+    typing_type: STRICT
+procedural language:
+    name: oqxnm
+    creation_date: 2015
+    popularity: 88.383000
+    has_adt: 1
+procedural language:
+    name: qtfffsusrbw
+    creation_date: 2001
+    popularity: 43.395000
+    has_adt: 0
+procedural language:
+    name: ukoat
+    creation_date: 2012
+    popularity: 75.202000
+    has_adt: 0
+functional language:
+    name: zrcs
+    creation_date: 2019
+    popularity: 25.611000
+    typing_type: STRICT
+procedural language:
+    name: uxk
+    creation_date: 2004
+    popularity: 43.628000
+    has_adt: 0
+object_oriented language:
+    name: jmufx
+    creation_date: 2008
+    popularity: 12.108000
+    inheritance_type: SINGLE
+functional language:
+    name: icbivecqzpqbjlyvxydoopc
+    creation_date: 1994
+    popularity: 12.548000
+    typing_type: STRICT
+functional language:
+    name: db
+    creation_date: 2006
+    popularity: 40.405000
+    typing_type: STRICT
+object_oriented language:
+    name: qtjhmlqzllwkq
+    creation_date: 1998
+    popularity: 10.132000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: cqzgjc
+    creation_date: 2017
+    popularity: 63.793000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: putk
+    creation_date: 2018
+    popularity: 50.124000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: v
+    creation_date: 1984
+    popularity: 80.841000
+    has_adt: 1
+functional language:
+    name: hlh
+    creation_date: 1996
+    popularity: 69.354000
+    typing_type: STRICT
+procedural language:
+    name: zyzpkluzgojms
+    creation_date: 1974
+    popularity: 22.899000
+    has_adt: 1
+object_oriented language:
+    name: wzwwgjggdruwjw
+    creation_date: 2004
+    popularity: 22.495000
+    inheritance_type: SINGLE
+functional language:
+    name: hfcxrqsbvhgdfhzeqikwnbrjnpg
+    creation_date: 2018
+    popularity: 18.362000
+    typing_type: STRICT
+procedural language:
+    name: zlnpdolmuqrcr
+    creation_date: 1973
+    popularity: 22.919000
+    has_adt: 0
+functional language:
+    name: olhzyyhycwsqqtbdj
+    creation_date: 1990
+    popularity: 1.395000
+    typing_type: STRICT
+procedural language:
+    name: lrfjjgqawbjxbifzm
+    creation_date: 1993
+    popularity: 71.098000
+    has_adt: 0
+procedural language:
+    name: fyynrwhekt
+    creation_date: 2016
+    popularity: 33.868000
+    has_adt: 1
+procedural language:
+    name: ujvyvtbfydrb
+    creation_date: 1983
+    popularity: 25.646000
+    has_adt: 0
+functional language:
+    name: unrllyrwrpnvznqkkqfdrk
+    creation_date: 1973
+    popularity: 7.798000
+    typing_type: STRICT
+object_oriented language:
+    name: cidyxuj
+    creation_date: 1970
+    popularity: 25.293000
+    inheritance_type: INTERFACE
+functional language:
+    name: swirlaevqjbjweg
+    creation_date: 2014
+    popularity: 59.809000
+    typing_type: STRICT
+object_oriented language:
+    name: dogazrtczhxxpoipug
+    creation_date: 1985
+    popularity: 7.222000
+    inheritance_type: SINGLE
+procedural language:
+    name: n
+    creation_date: 2011
+    popularity: 89.182000
+    has_adt: 0
+object_oriented language:
+    name: qkhgqhf
+    creation_date: 2013
+    popularity: 32.384000
+    inheritance_type: INTERFACE
+procedural language:
+    name: fibvttqzawitw
+    creation_date: 1999
+    popularity: 26.090000
+    has_adt: 0
+procedural language:
+    name: amdjsvtzfvhqhoaj
+    creation_date: 2002
+    popularity: 68.886000
+    has_adt: 1
+object_oriented language:
+    name: eacayyswuny
+    creation_date: 2000
+    popularity: 99.676000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: c
+    creation_date: 2007
+    popularity: 49.237000
+    inheritance_type: MULTIPLE
+object_oriented language:
+    name: hzns
+    creation_date: 1985
+    popularity: 87.131000
+    inheritance_type: SINGLE
+procedural language:
+    name: bpebpevlallidvkrxl
+    creation_date: 1984
+    popularity: 12.594000
+    has_adt: 1
+object_oriented language:
+    name: yl
+    creation_date: 1973
+    popularity: 96.395000
+    inheritance_type: MULTIPLE
+object_oriented language:
+    name: vxsbaihxthihpmebdbpqbn
+    creation_date: 1999
+    popularity: 22.162000
+    inheritance_type: SINGLE
+functional language:
+    name: xwdysasvcadawkidcwhdakus
+    creation_date: 1973
+    popularity: 47.802000
+    typing_type: DYNAMIC
+functional language:
+    name: dsggsahlwjlblhnwmps
+    creation_date: 2011
+    popularity: 41.257000
+    typing_type: STRICT
+object_oriented language:
+    name: txwptguloagpj
+    creation_date: 1995
+    popularity: 73.181000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: gmbcytvuopc
+    creation_date: 2001
+    popularity: 87.654000
+    inheritance_type: SINGLE
+functional language:
+    name: owiihwjplugyp
+    creation_date: 1987
+    popularity: 84.170000
+    typing_type: DYNAMIC
+procedural language:
+    name: vlxrzpv
+    creation_date: 2006
+    popularity: 9.925000
+    has_adt: 1
+functional language:
+    name: jbdu
+    creation_date: 1999
+    popularity: 56.527000
+    typing_type: STRICT
+object_oriented language:
+    name: hlpscnpupmfnggcdixyoskrx
+    creation_date: 1992
+    popularity: 50.942000
+    inheritance_type: SINGLE
+functional language:
+    name: jmmxbgbqxvglcvri
+    creation_date: 1983
+    popularity: 60.709000
+    typing_type: STRICT
+functional language:
+    name: ojalpejcjvpvu
+    creation_date: 1980
+    popularity: 1.417000
+    typing_type: DYNAMIC
+functional language:
+    name: rmuofelcwjafxjhkbltdvqssklw
+    creation_date: 1975
+    popularity: 35.584000
+    typing_type: DYNAMIC
+functional language:
+    name: t
+    creation_date: 1973
+    popularity: 36.782000
+    typing_type: STRICT
+object_oriented language:
+    name: zudygkijvdmsuhlguhoqf
+    creation_date: 1991
+    popularity: 84.547000
+    inheritance_type: SINGLE
+object_oriented language:
+    name: igccedzhbhtjqpoehklutfbhxju
+    creation_date: 2006
+    popularity: 32.559000
+    inheritance_type: SINGLE
+functional language:
+    name: ku
+    creation_date: 1973
+    popularity: 53.364000
+    typing_type: STRICT
+procedural language:
+    name: rtljkaoum
+    creation_date: 1977
+    popularity: 36.949000
+    has_adt: 0
+functional language:
+    name: mebjlamfl
+    creation_date: 1976
+    popularity: 51.376000
+    typing_type: DYNAMIC
+procedural language:
+    name: paak
+    creation_date: 2005
+    popularity: 31.929000
+    has_adt: 0
+object_oriented language:
+    name: pczdhgvwnwfyy
+    creation_date: 1987
+    popularity: 7.075000
+    inheritance_type: SINGLE
+procedural language:
+    name: ghhpyjriwbdm
+    creation_date: 2003
+    popularity: 52.896000
+    has_adt: 0
+procedural language:
+    name: xhttuqauosa
+    creation_date: 1984
+    popularity: 50.859000
+    has_adt: 0
+object_oriented language:
+    name: qxrbozysdkvxawvxgptchtzx
+    creation_date: 1971
+    popularity: 53.157000
+    inheritance_type: SINGLE
+functional language:
+    name: fsbejcvjanomilohhonyh
+    creation_date: 2015
+    popularity: 69.489000
+    typing_type: STRICT
+functional language:
+    name: pcrajkbovdjegwsuggjnnxc
+    creation_date: 1999
+    popularity: 35.846000
+    typing_type: STRICT
+procedural language:
+    name: waaauckgdyb
+    creation_date: 2002
+    popularity: 71.432000
+    has_adt: 1
+procedural language:
+    name: cjniudxrfmxzghkfkm
+    creation_date: 1975
+    popularity: 36.434000
+    has_adt: 0
+procedural language:
+    name: t
+    creation_date: 1977
+    popularity: 91.955000
+    has_adt: 1
+object_oriented language:
+    name: qfcbtmvwmobyndfw
+    creation_date: 1975
+    popularity: 49.208000
+    inheritance_type: INTERFACE
+procedural language:
+    name: mrjakyqlxpdctg
+    creation_date: 1981
+    popularity: 58.237000
+    has_adt: 0
+object_oriented language:
+    name: rxugczd
+    creation_date: 2015
+    popularity: 60.371000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: almavmsilkmqdunlyjhrgc
+    creation_date: 1992
+    popularity: 38.471000
+    has_adt: 0
+functional language:
+    name: rqvwsiktfwnnix
+    creation_date: 1973
+    popularity: 38.290000
+    typing_type: STRICT
+object_oriented language:
+    name: uwyleal
+    creation_date: 1996
+    popularity: 87.575000
+    inheritance_type: MULTIPLE
+functional language:
+    name: hmuzueuzbiplhqlkmabixzu
+    creation_date: 2017
+    popularity: 47.899000
+    typing_type: STRICT
+functional language:
+    name: hhfubeq
+    creation_date: 2016
+    popularity: 15.543000
+    typing_type: DYNAMIC
+object_oriented language:
+    name: wqxjbmjeuidqkgycowlv
+    creation_date: 2013
+    popularity: 90.583000
+    inheritance_type: SINGLE
+procedural language:
+    name: fiqqr
+    creation_date: 1983
+    popularity: 33.812000
+    has_adt: 0
+functional language:
+    name: lkgpfp
+    creation_date: 2016
+    popularity: 92.215000
+    typing_type: STRICT
+object_oriented language:
+    name: qvsoyaniauqskiryspvfadwhss
+    creation_date: 2010
+    popularity: 66.413000
+    inheritance_type: SINGLE
+functional language:
+    name: kztaavnixhyptii
+    creation_date: 1977
+    popularity: 89.766000
+    typing_type: STRICT
+procedural language:
+    name: ufeoxlkrpmeqheseuabdbqxlas
+    creation_date: 2012
+    popularity: 81.219000
+    has_adt: 0
+object_oriented language:
+    name: dfercr
+    creation_date: 2003
+    popularity: 72.004000
+    inheritance_type: MULTIPLE
+procedural language:
+    name: yzireet
+    creation_date: 2001
+    popularity: 41.356000
+    has_adt: 0
