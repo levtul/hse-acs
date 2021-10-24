@@ -1,68 +1,72 @@
 //------------------------------------------------------------------------------
-// container.cpp - содержит функции обработки контейнера
+// container_Constr.cpp - содержит функции обработки контейнера
 //------------------------------------------------------------------------------
 
 #include "container.h"
-#include "language.h"
 
 //------------------------------------------------------------------------------
-// Initialization of container.
-void Init(container &c) {
-    c.len = 0;
+// Конструктор контейнера
+container::container() : len{0} {}
+
+//------------------------------------------------------------------------------
+// Деструктор контейнера
+container::~container() { Clear(); }
+
+//------------------------------------------------------------------------------
+// Очистка контейнера от элементов (освобождение памяти)
+void container::Clear() {
+  for (int i = 0; i < len; i++) {
+    delete storage[i];
+  }
+  len = 0;
 }
 
 //------------------------------------------------------------------------------
-// Clear data from container.
-void Clear(container &c) {
-    for (int i = 0; i < c.len; i++) {
-        delete c.cont[i];
+// Ввод содержимого контейнера из указанного потока
+void container::In(std::ifstream &ifst) {
+  while (!ifst.eof()) {
+    if ((storage[len] = language::StaticIn(ifst)) != nullptr) {
+      len++;
     }
-    c.len = 0;
+  }
 }
 
 //------------------------------------------------------------------------------
-// Input container's data.
-void In(container &c, FILE *file) {
-    while (!feof(file)) {
-        if ((c.cont[c.len] = In(file)) != nullptr) {
-            c.len++;
-        }
+// Случайный ввод содержимого контейнера
+void container::InRnd(int size) {
+  while (len < size) {
+    if ((storage[len] = language::StaticInRnd()) != nullptr) {
+      len++;
     }
-}
-
-// Random input to container.
-void InRnd(container &c, int size) {
-    while (c.len < size) {
-        if ((c.cont[c.len] = InRnd()) != 0) {
-            c.len++;
-        }
-    }
+  }
 }
 
 //------------------------------------------------------------------------------
 // Output container data.
-void Out(container &c, FILE *file) {
-    fprintf(file, "%s%d%s", "container contains ", c.len, " elements.\n");
-    for (int i = 0; i < c.len; i++) {
-        Out(*(c.cont[i]), file);
-    }
+void container::Out(std::ofstream &ofst) {
+  ofst << "Container contains " << len << " elements.\n";
+  for (int i = 0; i < len; i++) {
+    storage[i]->Out(ofst);
+  }
 }
 
-void OutForTestGen(container &c, FILE *file) {
-    for (int i = 0; i < c.len; i++) {
-        OutForTestGen(*(c.cont[i]), file);
-    }
+void container::OutForTestGen(std::ofstream &ofst) {
+  for (int i = 0; i < len; i++) {
+    storage[i]->OutForTestGen(ofst);
+  }
 }
 
-void ShellSort(container &c) {
-    for (int d = c.len / 2; d > 0; d /= 2) {
-        for (int i = d; i < c.len; i++) {
-            for (int j = i; j >= d && CompareValue(*c.cont[j]) < CompareValue(*c.cont[j - d]); j -= d) {
-                language *tmp;
-                tmp = c.cont[j];
-                c.cont[j] = c.cont[j - d];
-                c.cont[j - d] = tmp;
-            }
-        }
+void container::ShellSort() {
+  for (int d = len / 2; d > 0; d /= 2) {
+    for (int i = d; i < len; i++) {
+      for (int j = i; j >= d &&
+           storage[j]->CompareValue() < storage[j - d]->CompareValue();
+           j -= d) {
+        language *tmp;
+        tmp = storage[j];
+        storage[j] = storage[j - d];
+        storage[j - d] = tmp;
+      }
     }
+  }
 }

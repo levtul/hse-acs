@@ -16,7 +16,6 @@ set(SOURCE_FILES
     src/functional.h
     src/language.h
     src/container.h
-    src/generator.h
 
     # Sources
     src/procedural.cpp
@@ -24,9 +23,8 @@ set(SOURCE_FILES
     src/functional.cpp
     src/language.cpp
     src/container.cpp
-    src/generator.cpp
     main.cpp
 )
 
-add_executable(task1 ${SOURCE_FILES})
+add_executable(task2 ${SOURCE_FILES})
 

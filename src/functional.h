@@ -6,32 +6,21 @@
 //------------------------------------------------------------------------------
 
 #include "constants.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "language.h"
+#include <fstream>
 
-struct functional {
-    enum typing {
-        STRICT, DYNAMIC
-    };
-    typing typing_type;
-    bool lazy_coputation;
-    // общие характеристики
-    double popularity;
-    int creation_year;
-    char name[MAX_NAME_SIZE];
+class functional : public language {
+public:
+  ~functional() override = default;
+  void In(std::ifstream &ifst) override;
+  void InRnd() override;
+  void Out(std::ofstream &ofst) override;
+  void OutForTestGen(std::ofstream &ofst) override;
+
+private:
+  enum typing { STRICT, DYNAMIC };
+  typing typing_type;
+  bool lazy_computation;
 };
-
-void In(functional &lang, FILE* file);
-
-void InRnd(functional &lang);
-
-void Out(functional &lang, FILE* file);
-
-void OutForTestGen(functional &lang, FILE* file);
-
-double CompareValue(functional &lang);
-
-
-
 
 #endif

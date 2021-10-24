@@ -2,34 +2,26 @@
 #define __object_oriented__
 
 //------------------------------------------------------------------------------
-// functional.h - содержит описание прямоугольника  и его интерфейса
+// object_oriented.h - содержит описание прямоугольника  и его интерфейса
 //------------------------------------------------------------------------------
 
 #include "constants.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "language.h"
+#include <fstream>
 
-struct object_oriented {
+class object_oriented : public language {
+  ~object_oriented() override = default;
+  void In(std::ifstream &ifst) override;
+  void InRnd() override;
+  void Out(std::ofstream &ofst) override;
+  void OutForTestGen(std::ofstream &ofst) override;
+private:
     enum inheritance {
         SINGLE, 
         MULTIPLE, 
         INTERFACE
     };
     inheritance inheritance_type;
-    // общие характеристики
-    double popularity;
-    int creation_year;
-    char name[MAX_NAME_SIZE];
 };
-
-void In(object_oriented &lang, FILE* file);
-
-void InRnd(object_oriented &lang);
-
-void Out(object_oriented &lang, FILE* file);
-
-void OutForTestGen(object_oriented &lang, FILE* file);
-
-double CompareValue(object_oriented &lang);
 
 #endif

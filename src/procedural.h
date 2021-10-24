@@ -2,30 +2,22 @@
 #define __procedural__
 
 //------------------------------------------------------------------------------
-// functional.h - содержит описание прямоугольника  и его интерфейса
+// procedural.h - содержит описание прямоугольника  и его интерфейса
 //------------------------------------------------------------------------------
 
 #include "constants.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "language.h"
+#include <fstream>
 
-struct procedural {
-    bool has_adt;
-    // общие характеристики
-    double popularity;
-    int creation_year;
-    char name[MAX_NAME_SIZE];
+struct procedural : public language {
+  ~procedural() override = default;
+  void In(std::ifstream &ifst) override;
+  void InRnd() override;
+  void Out(std::ofstream &ofst) override;
+  void OutForTestGen(std::ofstream &ofst) override;
+
+private:
+  bool has_adt;
 };
-
-void In(procedural &lang, FILE* file);
-
-void InRnd(procedural &lang);
-
-void Out(procedural &lang, FILE* file);
-
-void OutForTestGen(procedural &lang, FILE* file);
-
-double CompareValue(procedural &lang);
-
 
 #endif

@@ -5,33 +5,31 @@
 // language.h - содержит описание обобщающего языка программирования,
 //------------------------------------------------------------------------------
 
-#include "functional.h"
-#include "procedural.h"
-#include "object_oriented.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <fstream>
+#include <string>
 
 //------------------------------------------------------------------------------
 // структура, обобщающая все имеющиеся языки
-struct language {
-    enum key {FUNCTIONAL, PROCEDURAL, OBJECT_ORIENTED};
-    key k;
-    // используемые альтернативы
-    union {
-        functional f;
-        procedural p;
-        object_oriented o;
-    };
+class language {
+public:
+  virtual ~language() {};
+  // Ввод обобщенной фигуры
+  static language *StaticIn(std::ifstream &ifdt);
+  // Ввод обобщенной фигуры
+  virtual void In(std::ifstream &ifdt) = 0;
+  // Случайный ввод обобщенной фигуры
+  static language *StaticInRnd();
+  // Виртуальный метод ввода случайной фигуры
+  virtual void InRnd() = 0;
+  // Вывод обобщенной фигуры
+  virtual void Out(std::ofstream &ofst) = 0;
+  virtual void OutForTestGen(std::ofstream &ofst) = 0;
+  // Вычисление периметра обобщенной фигуры
+  double CompareValue();
+protected:
+  double popularity;
+  int creation_year;
+  std::string name;
 };
-
-language *In(FILE* file);
-
-language *InRnd();
-
-void Out(language &lang, FILE* file);
-
-void OutForTestGen(language &lang, FILE* file);
-
-double CompareValue(language &lang);
 
 #endif
