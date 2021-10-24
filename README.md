@@ -1,4 +1,4 @@
-# Отчет: задание 1
+# Отчет: задание 2
 ### Тулявко Лев Владимирович, БПИ205
 Номер варианта = 190
 
@@ -60,67 +60,155 @@ Yомер задания = 8
 ## Основные характеристики программы
 Число интерфейсных модулей: 6
 
-Число модулей реализации: 7
+Число модулей реализации: 5
 
-Общий размер текстов: 19015 байт $\approx$ 19 Кб
+Общий размер текстов: 16546 байт $\approx$ 16 Кб
 
-Размер исполняемого кода: 103376 байт $\approx$ 104 Кб
+Размер исполняемого кода: 271224 байт $\approx$ 264 Кб
 
 Время выполнения тестовых файлов: 
 
 ```
---- Testing started ---
---- Running test tests/test1.txt ---
-Test 1: OK. Elements count: 10. Time: 0.0004s
---- Running test tests/test2.txt ---
-Test 2: OK. Elements count: 16. Time: 0.0002s
---- Running test tests/test3.txt ---
-Test 3: OK. Elements count: 20. Time: 0.0002s
---- Running test tests/test4.txt ---
-Test 4: OK. Elements count: 38. Time: 0.0003s
---- Running test tests/test5.txt ---
-Test 5: OK. Elements count: 49. Time: 0.0003s
---- Running test tests/test6.txt ---
-Test 6: OK. Elements count: 64. Time: 0.0004s
---- Running test tests/test7.txt ---
-Test 7: OK. Elements count: 64. Time: 0.0005s
---- Running test tests/test8.txt ---
-Test 8: OK. Elements count: 76. Time: 0.0005s
---- Running test tests/test9.txt ---
-Test 9: OK. Elements count: 94. Time: 0.0006s
---- Running test tests/test10.txt ---
-Test 10: OK. Elements count: 104. Time: 0.0007s
---- Running test tests/test11.txt ---
-Test 11: OK. Elements count: 115. Time: 0.0008s
---- Running test tests/test12.txt ---
-Test 12: OK. Elements count: 120. Time: 0.0008s
---- Running test tests/test13.txt ---
-Test 13: OK. Elements count: 138. Time: 0.0009s
---- Running test tests/test14.txt ---
-Test 14: OK. Elements count: 136. Time: 0.0009s
---- Running test tests/test15.txt ---
-Test 15: OK. Elements count: 159. Time: 0.0011s
---- Running test tests/test16.txt ---
-Test 16: OK. Elements count: 150. Time: 0.0010s
---- Running test tests/test17.txt ---
-Test 17: OK. Elements count: 184. Time: 0.0012s
---- Running test tests/test18.txt ---
-Test 18: OK. Elements count: 192. Time: 0.0012s
---- Running test tests/test19.txt ---
-Test 19: OK. Elements count: 189. Time: 0.0012s
---- Running test tests/test20.txt ---
-Test 20: OK. Elements count: 214. Time: 0.0013s
---- Running test tests/testEmptyInput.txt ---
-Test EmptyInput: OK. Elements count: 0. Time: 0.0002s
---- Running test tests/testMaxElemsCount.txt ---
-Test MaxElemsCount: OK. Elements count: 10000. Time: 0.0634s
---- Testing finished ---  
+========== RUNNING TEST 1 ==========
+Start
+Stop
+Memory: 17024 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 2 ==========
+Start
+Stop
+Memory: 16812 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 3 ==========
+Start
+Stop
+Memory: 16560 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 4 ==========
+Start
+Stop
+Memory: 16716 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 5 ==========
+Start
+Stop
+Memory: 15264 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 6 ==========
+Start
+Stop
+Memory: 14864 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 7 ==========
+Start
+Stop
+Memory: 17132 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 8 ==========
+Start
+Stop
+Memory: 15264 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 9 ==========
+Start
+Stop
+Memory: 14900 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 10 ==========
+Start
+Stop
+Memory: 15052 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 11 ==========
+Start
+Stop
+Memory: 17028 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 12 ==========
+Start
+Stop
+Memory: 17100 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 13 ==========
+Start
+Stop
+Memory: 17196 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 14 ==========
+Start
+Stop
+Memory: 15312 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 15 ==========
+Start
+Stop
+Memory: 17152 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 16 ==========
+Start
+Stop
+Memory: 16740 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 17 ==========
+Start
+Stop
+Memory: 15000 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 18 ==========
+Start
+Stop
+Memory: 15276 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 19 ==========
+Start
+Stop
+Memory: 17168 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 20 ==========
+Start
+Stop
+Memory: 15212 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST EmptyInput ==========
+Start
+Stop
+Memory: 14812 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST MaxElemsCount ==========
+Start
+Stop
+Memory: 25872 KB
+User time: 0.06 s
+Kernel time: 0.00 s
 ```
 ---
 ## Архитектура
 
-[Файл](https://github.com/levtul/hse-acs/blob/task1/Описание%20архитектуры.pdf)
+[Файл](https://github.com/levtul/hse-acs/blob/task2/Описание%20архитектуры.pdf)
 
 ---
 ## Сравнительный аланиз
-Других заданий еще не было, поэтому сравнивать пока что не с чем
+Применение объектно-ориентированного подхода позволило уменьшить размер исходных
+файлов на 15%, хотя при этом размер исполняемого файла увеличился более чем вдвое.
+Время прохождения тестов поменялось незначительно, использование памяти стало меньше, из-за того что применялось меньше указателей.
