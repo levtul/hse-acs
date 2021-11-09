@@ -36,6 +36,7 @@ if __name__ == '__main__':
     else:
         container.InRnd(count)
 
+    container.ShellSort()
     ofile = open(outputFileName, 'w')
     container.Out(ofile)
     ofile.close()

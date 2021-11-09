@@ -1,0 +1,121 @@
+container contains 20 elements.
+procedural language:
+    name: iygfnbnzojzlrsnzjxryfpndabt
+    creation_date: 1981
+    popularity: 27.256
+    has_adt: 1
+    compare_value: 73.37037037037037
+functional language:
+    name: ykeavsaerjdfmbosyqizblmjox
+    creation_date: 1982
+    popularity: 55.559
+    typing_type: STRICT
+    compare_value: 76.23076923076923
+object_oriented language:
+    name: lyyyenookaitbdngqojeh
+    creation_date: 2014
+    popularity: 9.237
+    inheritance_type: SINGLE
+    compare_value: 95.9047619047619
+functional language:
+    name: txwezofdkmlubxlxzlr
+    creation_date: 2008
+    popularity: 3.076
+    typing_type: STRICT
+    compare_value: 105.6842105263158
+functional language:
+    name: xhxhznawjgvzoalalgd
+    creation_date: 2019
+    popularity: 30.273
+    typing_type: STRICT
+    compare_value: 106.26315789473684
+object_oriented language:
+    name: ujhcekhurziaerchdm
+    creation_date: 1989
+    popularity: 60.127
+    inheritance_type: MULTIPLE
+    compare_value: 110.5
+functional language:
+    name: uqnpkntcwwhkxxfyp
+    creation_date: 2013
+    popularity: 66.823
+    typing_type: STRICT
+    compare_value: 118.41176470588235
+procedural language:
+    name: gimmowcasivrsbbt
+    creation_date: 2010
+    popularity: 64.95
+    has_adt: 1
+    compare_value: 125.625
+procedural language:
+    name: doqkvjujzusflzam
+    creation_date: 2016
+    popularity: 11.816
+    has_adt: 1
+    compare_value: 126.0
+functional language:
+    name: gehnjwgtxhgkbv
+    creation_date: 1982
+    popularity: 9.746
+    typing_type: STRICT
+    compare_value: 141.57142857142858
+functional language:
+    name: munwlvuspdctim
+    creation_date: 2015
+    popularity: 76.616
+    typing_type: STRICT
+    compare_value: 143.92857142857142
+functional language:
+    name: gguntpowolkt
+    creation_date: 1970
+    popularity: 4.751
+    typing_type: STRICT
+    compare_value: 164.16666666666666
+functional language:
+    name: tzgpiqpivnxl
+    creation_date: 1982
+    popularity: 9.472
+    typing_type: DYNAMIC
+    compare_value: 165.16666666666666
+procedural language:
+    name: yqvgtjscm
+    creation_date: 1975
+    popularity: 37.077
+    has_adt: 0
+    compare_value: 219.44444444444446
+procedural language:
+    name: pjfgxpshk
+    creation_date: 1987
+    popularity: 45.221
+    has_adt: 0
+    compare_value: 220.77777777777777
+functional language:
+    name: ikpknuj
+    creation_date: 1997
+    popularity: 11.537
+    typing_type: DYNAMIC
+    compare_value: 285.2857142857143
+procedural language:
+    name: engbjta
+    creation_date: 2001
+    popularity: 47.718
+    has_adt: 1
+    compare_value: 285.85714285714283
+functional language:
+    name: nnaje
+    creation_date: 1972
+    popularity: 90.985
+    typing_type: DYNAMIC
+    compare_value: 394.4
+functional language:
+    name: il
+    creation_date: 2012
+    popularity: 32.628
+    typing_type: DYNAMIC
+    compare_value: 1006.0
+object_oriented language:
+    name: j
+    creation_date: 1994
+    popularity: 62.706
+    inheritance_type: INTERFACE
+    compare_value: 1994.0

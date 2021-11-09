@@ -13,7 +13,7 @@ class Container:
     def In(self, lines):
         arrayLen = len(lines)
         i = 0   # Индекс, задающий текущую строку в массиве
-        while i < arrayLen:
+        while i < arrayLen and len(lines[i]) > 1:
             line = lines[i]
             if line.split()[0] == "functional":
                 i += 1
@@ -21,7 +21,7 @@ class Container:
             elif line.split()[0] == "procedural":
                 i += 1
                 language = Procedural()
-            elif line.split()[0] == "procedural":
+            elif line.split()[0] == "object_oriented":
                 i += 1
                 language = ObjectOriented()
             else:
@@ -37,6 +37,7 @@ class Container:
             language.popularity = float(line.split()[1])
             i += 1
             language.In(lines, i)
+            i += 1
             self.store.append(language)
 
     def InRnd(self, count):
@@ -55,10 +56,17 @@ class Container:
             self.store.append(language)
 
     def Out(self, ostream):
-        ostream.write(f"Container contains {len(self.store)} elements.\n")
+        ostream.write(f"container contains {len(self.store)} elements.\n")
         for language in self.store:
             language.Out(ostream)
             ostream.write("\n")
 
     def ShellSort(self):
-        pass
+        d = len(self.store) // 2
+        while d > 0:
+            for i in range(d, len(self.store)):
+                for j in range(i, d - 1, -d):
+                    if self.store[j].CompareValue() >= self.store[j - d].CompareValue():
+                        break
+                    self.store[j], self.store[j - d] = self.store[j - d], self.store[j]
+            d //= 2
