@@ -1,12 +1,12 @@
 #----------------------------------------------
 class Language:
-    def ReadStrArray(self, strArray, i):
+    def In(self, lines, i):
         pass
 
-    def Print(self):
+    def InRnd(self):
         pass
 
-    def Write(self, ostream):
+    def Out(self, ostream):
         pass
 
     def CompareValue(self):
