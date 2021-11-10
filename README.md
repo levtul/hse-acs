@@ -205,7 +205,7 @@ Kernel time: 0.00 s
 ---
 ## Архитектура
 
-[Файл](https://github.com/levtul/hse-acs/blob/task2/Описание%20архитектуры.pdf)
+[Файл](https://github.com/levtul/hse-acs/blob/task3/Описание%20архитектуры.pdf)
 
 ---
 ## Сравнительный аланиз
