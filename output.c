@@ -8,11 +8,6 @@
 #include "data.h"
 #include "enumerations.h"
 
-double CompareValue(void *l) {
-    int len = strlen((char*)l);
-    return *(int*)(l + nameSize) / len;
-}
-
 void OutFunctional(void *f, FILE *ofst) {
     char *typing_type;
     int* typing = (int*)(f + commonSize);
@@ -27,7 +22,7 @@ void OutFunctional(void *f, FILE *ofst) {
                   "    popularity: %f\n"
                   "    typing_type: %s\n"
                   "    compare_value: %f\n",
-            *((char*)f), *((int*)f + nameSize), *((double*)f + nameSize + doubleSize), typing_type, CompareValue(f));
+            (char*)f, *(int*)(f + nameSize), *(double*)(f + nameSize + intSize), typing_type, CompareValue(f));
 }
 
 void OutProcedural(void *p, FILE *ofst) {
@@ -37,7 +32,7 @@ void OutProcedural(void *p, FILE *ofst) {
                   "    popularity: %f\n"
                   "    has_adt: %i\n"
                   "    compare_value: %f\n",
-            *((char*)p), *((int*)p + nameSize), *((double*)p + nameSize + doubleSize), *((int*)p + commonSize), CompareValue(p));
+            ((char*)p), *(int*)(p + nameSize), *(double*)(p + nameSize + intSize), *(int*)(p + commonSize), CompareValue(p));
 }
 
 void OutObjectOriented(void *o, FILE *ofst) {
@@ -56,7 +51,7 @@ void OutObjectOriented(void *o, FILE *ofst) {
                   "    popularity: %f\n"
                   "    inheritance_type: %s\n"
                   "    compare_value: %f\n",
-            *((char*)o), *((int*)o + nameSize), *((double*)o + nameSize + doubleSize), inheritance_type, CompareValue(o));
+            (char*)o, *(int*)(o + nameSize), *(double*)(o + nameSize + intSize), inheritance_type, CompareValue(o));
 }
 
 void OutLanguage(void *s, FILE *ofst) {

@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
             return 3;
         }
         // системные часы в качестве инициализатора
-        srand((unsigned int)(time(0)));
+        // srand((unsigned int)(time(0)));
         // Заполнение контейнера генератором случайных чисел
         InRndContainer(cont, &len, size);
     }

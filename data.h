@@ -1,6 +1,7 @@
 #ifndef __data__
 #define __data__
 
+#include <stdio.h>
 //------------------------------------------------------------------------------
 // data.h - Описание данных бестиповой программы
 //------------------------------------------------------------------------------
@@ -14,16 +15,16 @@ int const intSize = sizeof(int);
 // Константа, определяющая размер символа
 int const charSize = sizeof(char);
 // Константа, определяющая размер булевого числа
-int const boolSize = sizeof(bool);
+int const boolSize = sizeof(int);
 // Константа, определяющая размер числа с плавающей точкой
 int const doubleSize = sizeof(double);
 // Константа, задающая размер для типа перечисления
 int const enumSize = intSize;
 
 // Константа, опеределяющая максимальную длину имени языка
-int const maxNameSize = 30;
+int const maxNameLength = 30;
 // Константа, опеределяющая максимальный размер имени языка
-int const nameSize = maxNameSize * charSize;
+int const nameSize = maxNameLength * charSize;
 // Константа, задающая размер общих характеристик языка
 int const commonSize = nameSize + intSize + doubleSize;
 // Константа, задающая размер функционального языка
@@ -56,5 +57,6 @@ void InRndContainer(void *c, int *len, int size);
 void OutContainer(void *c, int len, FILE *ofst);
 // Вычисление суммы периметров всех фигур в контейнере
 void ShellSort(void *c, int len);
+double CompareValue(void *l);
 
 #endif

@@ -1,6 +1,7 @@
 #include <stdlib.h>
 
 #include "data.h"
+#include "enumerations.h"
 
 void InRndFunctional(void *f) {
     int typing_type = rand() % 2 + 1;
@@ -28,7 +29,7 @@ void InRndObjectOriented(void *o) {
 
 // Случайный ввод языка
 int InRndLanguage(void *l) {
-    int size = rand() % (maxNameSize - 2) + 1;
+    int size = rand() % (maxNameLength - 2) + 1;
     for (int i = 0; i < size; i++) {
         *(char*)(l + intSize + i) = 'a' + rand() % 26;
     }
