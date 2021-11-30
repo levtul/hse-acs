@@ -56,7 +56,7 @@ void InRndContainer(void *c, int *len, int size);
 // Вывод содержимого контейнера в файл
 void OutContainer(void *c, int len, FILE *ofst);
 // Вычисление суммы периметров всех фигур в контейнере
-void ShellSort(void *c, int len);
-double CompareValue(void *l);
+extern void ShellSort(void *c, int len);
+extern double CompareValue(void *l);
 
 #endif
