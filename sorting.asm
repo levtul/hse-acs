@@ -23,9 +23,11 @@ CompareValue:
     push    rbp
     mov     rbp, rsp
     sub     rsp, 16; двиагаем stack pointer на 16 вниз
+    mov     [rbp - 8], rdi
     call    strlen
-    mov     [rbp - 12], rax; кладем результат int32 
-    cvtsi2sd        xmm0, [rdi + 26]
+    mov     [rbp - 12], eax; кладем результат int32 
+    mov     rax, [rbp - 8]
+    cvtsi2sd        xmm0, [rax + 30]
     cvtsi2sd        xmm1, [rbp - 12]
     divsd   xmm0, xmm1
     add     rsp, 16
