@@ -2,7 +2,7 @@
 ### Тулявко Лев Владимирович, БПИ205
 Номер варианта = 190
 
-Yомер задания = 8
+Номер задания = 8
 
 Номер функции = 14
 
@@ -32,15 +32,15 @@ Yомер задания = 8
 Формат ввода: 
 1. Случайно генерируемые данные:
   
-   `command -n count output-file1 output-file2`
+   `task4 -n count output-file1 output-file2`
 
-   Пример: task1 -n 3 out1.txt out2.txt
+   Пример: task4 -n 3 out1.txt out2.txt
 
 2. Ввод из файла
   
-   `command -f input-file output-file1 output-file2`
+   `task4 -f input-file output-file1 output-file2`
 
-   Пример task1 -f input.txt out1.txt
+   Пример task4 -f input.txt out1.txt
 
 Формат представления языка:
 
@@ -58,9 +58,9 @@ Yомер задания = 8
 ---
 
 ## Основные характеристики программы
-Число интерфейсных модулей: 6
+Число интерфейсных модулей: 2
 
-Число модулей реализации: 7
+Число модулей реализации: 6
 
 Общий размер текстов: 19015 байт $\approx$ 19 Кб
 
@@ -69,58 +69,140 @@ Yомер задания = 8
 Время выполнения тестовых файлов: 
 
 ```
---- Testing started ---
---- Running test tests/test1.txt ---
-Test 1: OK. Elements count: 10. Time: 0.0004s
---- Running test tests/test2.txt ---
-Test 2: OK. Elements count: 16. Time: 0.0002s
---- Running test tests/test3.txt ---
-Test 3: OK. Elements count: 20. Time: 0.0002s
---- Running test tests/test4.txt ---
-Test 4: OK. Elements count: 38. Time: 0.0003s
---- Running test tests/test5.txt ---
-Test 5: OK. Elements count: 49. Time: 0.0003s
---- Running test tests/test6.txt ---
-Test 6: OK. Elements count: 64. Time: 0.0004s
---- Running test tests/test7.txt ---
-Test 7: OK. Elements count: 64. Time: 0.0005s
---- Running test tests/test8.txt ---
-Test 8: OK. Elements count: 76. Time: 0.0005s
---- Running test tests/test9.txt ---
-Test 9: OK. Elements count: 94. Time: 0.0006s
---- Running test tests/test10.txt ---
-Test 10: OK. Elements count: 104. Time: 0.0007s
---- Running test tests/test11.txt ---
-Test 11: OK. Elements count: 115. Time: 0.0008s
---- Running test tests/test12.txt ---
-Test 12: OK. Elements count: 120. Time: 0.0008s
---- Running test tests/test13.txt ---
-Test 13: OK. Elements count: 138. Time: 0.0009s
---- Running test tests/test14.txt ---
-Test 14: OK. Elements count: 136. Time: 0.0009s
---- Running test tests/test15.txt ---
-Test 15: OK. Elements count: 159. Time: 0.0011s
---- Running test tests/test16.txt ---
-Test 16: OK. Elements count: 150. Time: 0.0010s
---- Running test tests/test17.txt ---
-Test 17: OK. Elements count: 184. Time: 0.0012s
---- Running test tests/test18.txt ---
-Test 18: OK. Elements count: 192. Time: 0.0012s
---- Running test tests/test19.txt ---
-Test 19: OK. Elements count: 189. Time: 0.0012s
---- Running test tests/test20.txt ---
-Test 20: OK. Elements count: 214. Time: 0.0013s
---- Running test tests/testEmptyInput.txt ---
-Test EmptyInput: OK. Elements count: 0. Time: 0.0002s
---- Running test tests/testMaxElemsCount.txt ---
-Test MaxElemsCount: OK. Elements count: 10000. Time: 0.0634s
+========== RUNNING TEST 1 ==========
+Start
+Stop
+Memory: 2148 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 2 ==========
+Start
+Stop
+Memory: 2180 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 3 ==========
+Start
+Stop
+Memory: 2148 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 4 ==========
+Start
+Stop
+Memory: 2196 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 5 ==========
+Start
+Stop
+Memory: 2180 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 6 ==========
+Start
+Stop
+Memory: 2140 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 7 ==========
+Start
+Stop
+Memory: 2148 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 8 ==========
+Start
+Stop
+Memory: 2200 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 9 ==========
+Start
+Stop
+Memory: 2196 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 10 ==========
+Start
+Stop
+Memory: 2144 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 11 ==========
+Start
+Stop
+Memory: 2168 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 12 ==========
+Start
+Stop
+Memory: 2180 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 13 ==========
+Start
+Stop
+Memory: 2192 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 14 ==========
+Start
+Stop
+Memory: 2180 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 15 ==========
+Start
+Stop
+Memory: 2196 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 16 ==========
+Start
+Stop
+Memory: 2192 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 17 ==========
+Start
+Stop
+Memory: 2148 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 18 ==========
+Start
+Stop
+Memory: 2100 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 19 ==========
+Start
+Stop
+Memory: 2140 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST 20 ==========
+Start
+Stop
+Memory: 2184 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST EmptyInput ==========
+Start
+Stop
+Memory: 2132 KB
+User time: 0.00 s
+Kernel time: 0.00 s
+========== RUNNING TEST MaxElemsCount ==========
+Start
+Stop
+Memory: 2144 KB
+User time: 0.02 s
+Kernel time: 0.01 s
 --- Testing finished ---  
 ```
 ---
-## Архитектура
-
-[Файл](https://github.com/levtul/hse-acs/blob/task1/Описание%20архитектуры.pdf)
-
----
-## Сравнительный аланиз
-Других заданий еще не было, поэтому сравнивать пока что не с чем
+## Сравнительный анализ
+В данной работе я использовал ассемблер nasm для наиболее ресурсоемких частей задания(сортировка, и функция, по которой сортируем), и время выполнения уменьшилось более чем в 3 раза относительно решения на C++(которое было самым быстрым из всех прошлых реализаций), и значительно медленнее чем все остальные. При этом, писать код, и в особенности искать ошибки в нем, было гораздо более времязатратно и тяжело. На мой взгляд, сейчас писать обычные программы на ассемблере не целесообразно, так как время программиста стоит гораздо дороже чем процессорное время(сервера достаточно легко расширяются), но если в программе критически важна производительность, то использовать ассемблер, чтобы улучшить результат в "бутылочных горлышках" может быть весьма эффективным подходом(и как раз это я и сделал в текущей работе). 
