@@ -14,7 +14,7 @@ void InFunctional(void *f, FILE *ifst) {
                  "    creation_date: %i\n"
                  "    popularity: %lf\n"
                  "    typing_type: %s\n",
-            f, f + nameSize, f + nameSize + doubleSize, typing_type);
+            f, f + nameSize, f + nameSize + intSize, typing_type);
     int *ptr = (int*)(f + commonSize);
     if (*typing_type == 'D') {
         *ptr = DYNAMIC;
@@ -31,7 +31,7 @@ void InProcedural(void *p, FILE *ifst) {
                  "    creation_date: %i\n"
                  "    popularity: %lf\n"
                  "    has_adt: %i\n",
-            p, p + nameSize, p + nameSize + doubleSize, p + commonSize);
+            p, p + nameSize, p + nameSize + intSize, p + commonSize);
 }
 
 void InObjectOriented(void *o, FILE *ifst) {
@@ -40,7 +40,7 @@ void InObjectOriented(void *o, FILE *ifst) {
                  "    creation_date: %i\n"
                  "    popularity: %lf\n"
                  "    inheritance_type: %s\n",
-            o, o + nameSize, o + nameSize + doubleSize, inheritance_type);
+            o, o + nameSize, o + nameSize + intSize, inheritance_type);
     int *ptr = (int*)(o + commonSize);
     if (*inheritance_type == 'I') {
         *ptr = INTERFACE;

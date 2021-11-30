@@ -66,8 +66,6 @@ int main(int argc, char* argv[]) {
     }
 
     // Вывод содержимого контейнера в файл
-    fprintf(stdout, "Filled container:\n");
-    OutContainer(cont, len, stdout);
     FILE* ofst1 = fopen(argv[3], "w");
     fprintf(ofst1, "Filled container:\n");
     OutContainer(cont, len, ofst1);
@@ -77,6 +75,8 @@ int main(int argc, char* argv[]) {
     FILE* ofst2 = fopen(argv[4], "w");
     clock_t start = clock();
     ShellSort(cont, len);
+    // fprintf(stdout, "Filled container:\n");
+    // OutContainer(cont, len, stdout);
     OutContainer(cont, len, ofst2);
     fclose(ofst2);
 

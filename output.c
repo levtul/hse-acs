@@ -19,9 +19,9 @@ void OutFunctional(void *f, FILE *ofst) {
     fprintf(ofst, "functional language:\n"
                   "    name: %s\n"
                   "    creation_date: %i\n"
-                  "    popularity: %f\n"
+                  "    popularity: %lf\n"
                   "    typing_type: %s\n"
-                  "    compare_value: %f\n",
+                  "    compare_value: %lf\n",
             (char*)f, *(int*)(f + nameSize), *(double*)(f + nameSize + intSize), typing_type, CompareValue(f));
 }
 
@@ -29,9 +29,9 @@ void OutProcedural(void *p, FILE *ofst) {
      fprintf(ofst, "procedural language:\n"
                   "    name: %s\n"
                   "    creation_date: %i\n"
-                  "    popularity: %f\n"
+                  "    popularity: %lf\n"
                   "    has_adt: %i\n"
-                  "    compare_value: %f\n",
+                  "    compare_value: %lf\n",
             ((char*)p), *(int*)(p + nameSize), *(double*)(p + nameSize + intSize), *(int*)(p + commonSize), CompareValue(p));
 }
 
@@ -48,9 +48,9 @@ void OutObjectOriented(void *o, FILE *ofst) {
     fprintf(ofst, "object_oriented language:\n"
                   "    name: %s\n"
                   "    creation_date: %i\n"
-                  "    popularity: %f\n"
+                  "    popularity: %lf\n"
                   "    inheritance_type: %s\n"
-                  "    compare_value: %f\n",
+                  "    compare_value: %lf\n",
             (char*)o, *(int*)(o + nameSize), *(double*)(o + nameSize + intSize), inheritance_type, CompareValue(o));
 }
 
