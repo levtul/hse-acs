@@ -1,6 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
-project(task4 C)
+cmake_minimum_required(VERSION 3.0.0)
+project(task5 VERSION 0.1.0)
 
-set(CMAKE_C_STANDARD 11)
-
-add_executable(task4 main.c)
+add_executable(task5 main.cpp)
